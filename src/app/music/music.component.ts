@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class MusicComponent {
 
+  btnVisible: boolean = false;
+  favGenre: string;
+
+  constructor() {
+    setTimeout(() => {
+      this.btnVisible = true;
+    }, 2000)
+  }
+
+  
+
 }
