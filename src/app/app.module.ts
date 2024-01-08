@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MusicComponent } from './music/music.component';
 import { MusicGenreComponent } from './music/music-genre/music-genre.component';
+import { MusicListComponent } from './music/music-list/music-list.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { MusicGenreComponent } from './music/music-genre/music-genre.component';
     HeaderComponent,
     MusicComponent,
     MusicGenreComponent,
+    MusicListComponent,
   ],
   imports: [
     BrowserModule

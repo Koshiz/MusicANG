@@ -1,0 +1,5 @@
+<div *ngFor="let music of songList">
+    <h4>{{ music.name }}</h4>
+    <h4>{{ music.description }}</h4>
+     <img [src]="music.imagePath" alt="" class="img-responsive" style="max-height: 50px;">
+</div>
