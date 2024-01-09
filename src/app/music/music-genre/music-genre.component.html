@@ -1,1 +1,12 @@
-<p>music-genre works!</p>
+<div class="col-xs-12">
+    <div
+      class="panel panel-default">
+      <div class="panel-heading">{{ genre.name }}</div>
+      <div class="panel-body">
+        <p>
+          <strong *ngIf="genre.type === 'rock'" style="color: red">{{ genre.description }}</strong>
+          <em *ngIf="genre.type === 'classic'">{{ genre.description }}</em>
+        </p>
+      </div>
+    </div>
+  </div>
