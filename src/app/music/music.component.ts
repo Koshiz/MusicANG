@@ -16,6 +16,4 @@ export class MusicComponent {
     }, 2000)
   }
 
-  
-
 }

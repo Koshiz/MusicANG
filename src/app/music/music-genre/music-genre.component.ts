@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-music-genre',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './music-genre.component.css'
 })
 export class MusicGenreComponent {
+  @Input() genre: {name: string, description: string, type: string};
+
+  songAdded;
+  
 
 }
